@@ -37,7 +37,7 @@ const Modals = () => {
       </Modal>
     </div>
     <div className='App'>
-      <button style={{ marginTop : "300px", padding : "15px 50px", background : "#202030", color : "#FFF", border : "none", marginLeft : "20px"}} onClick={()=> modalRef.current.open()}>show text in Hangul</button>
+      <button style={{ marginTop : "300px", padding : "15px 50px", background : "#202030", color : "#FFF", border : "none", marginLeft : "20px"}} onClick={()=> modalRef.current.open()}>show text in Yoruba</button>
       <Modal ref={modalRef}>
         <h2>Holla!</h2>
         <p>    
