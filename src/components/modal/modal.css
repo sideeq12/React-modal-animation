@@ -20,6 +20,17 @@
     padding: 20px;
     border-radius: 5px;
 }
-/* .modal-backdrop .modal-wrapper .modal-content{
+.modal-backdrop.modal-wrapper .modal-content{
+    display: flex;
+    flex-direction: column;
+}
+.modal-backdrop .modal-wrapper .modal-content h2{
 
-} */
+}
+.modal-backdrop .modal-wrapper .modal-content label{
+    color : red;
+    font-size: 25px;
+}
+.modal-backdrop .modal-wrapper .modal-content span{
+    margin-left: auto;
+}

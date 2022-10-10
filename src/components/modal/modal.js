@@ -3,7 +3,7 @@ import "./modal.css"
 import { motion , AnimatePresence } from "framer-motion"
 
 const Modal = forwardRef( (props, ref) => {
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
 
     useImperativeHandle(ref, ()=>{
        return{
